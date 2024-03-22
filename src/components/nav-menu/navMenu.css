@@ -1,0 +1,51 @@
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sidebar{
+  width: 30%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 700;
+}
+
+.icon{
+  padding: 10px 20px;
+  font-size: 30px;
+}
+
+.dropdown-open{
+  height: auto;
+}
+
+.blog-content, .pages-content{
+  padding: 0rem 1rem;
+}
+
+.level2-content{
+  padding: 0rem 1rem;
+}
+
+.dropdown-arrow{
+  margin-left: 70px;
+}
+
+.dropdown-icon{
+  margin-left: 70px;
+}
