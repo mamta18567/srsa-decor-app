@@ -4,6 +4,9 @@ import g1 from "../assets/srsawebsite/TABLE/dd.jpg"
 import g2 from "../assets/srsawebsite/BED/Selected/ki01.jpg"
 import g3 from "../assets/srsawebsite/paneling/glass.jpg"
 import g4 from "../assets/srsawebsite/BED/Selected/FB_IMG_1685007557380.jpg"
+import g5 from "../assets/srsawebsite/SEATER/Selected_Sofas/FB_IMG_1689503572710.jpg"
+import g6 from "../assets/srsawebsite/TV UNIT/FB_IMG_1645014983279.jpg"
+import g7 from "../assets/srsawebsite/WARDROBE/IMG_20190823_211833.jpg"
 
 const Work = () => {
 
@@ -18,7 +21,7 @@ const Work = () => {
           <div className="top-container">
             <div className="hover-box">
               <HoverBox
-                imageSrc={g4}
+                imageSrc={g1}
                 altText="Picture 1"
                 heading="Lavendar ambient interior"
               />
@@ -41,8 +44,31 @@ const Work = () => {
             </div>
             <div className="hover-box">
               <HoverBox
-                imageSrc={g1}
+                imageSrc={g4}
                 altText="Picture 4"
+                heading="Lavendar ambient interior"
+              />
+            </div>
+            <div className="hover-box">
+              <HoverBox
+                imageSrc={g5}
+                altText="Picture 1"
+                heading="Lavendar ambient interior"
+              />
+            </div>
+          </div>
+          <div className="bottom-container">
+            <div className="hover-box">
+              <HoverBox
+                imageSrc={g6}
+                altText="Picture 1"
+                heading="Lavendar ambient interior"
+              />
+            </div>
+            <div className="hover-box">
+              <HoverBox
+                imageSrc={g7}
+                altText="Picture 1"
                 heading="Lavendar ambient interior"
               />
             </div>

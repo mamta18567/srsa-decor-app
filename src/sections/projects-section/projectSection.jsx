@@ -1,20 +1,18 @@
-import About from "../../about/about"
 import Brands from "../../brands/brands";
 import Home from "../../home/home";
 import RequestSection from "../../request-action/request";
 import ReviewSection from "../../reviews/reviews";
-import Services from "../../services/services";
+import Work from "../../work/work";
 
-const AboutSection = () => {
+const ProjectSection = () => {
 
   return (
     <>
-      <Home 
-      height={"60vh"}
-      heading={"About Us"}
+      <Home
+        height={"60vh"}
+        heading={"Projects"}
       />
-      <About />
-      <Services />
+      <Work />
       <ReviewSection />
       <RequestSection />
       <Brands />
@@ -23,4 +21,4 @@ const AboutSection = () => {
 
 }
 
-export default AboutSection;
+export default ProjectSection;

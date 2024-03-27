@@ -10,7 +10,10 @@ const HomeSection = () => {
 
   return (
     <>
-      <Home />
+      <Home
+        height={"100vh"}
+        heading={"Home"} 
+      />
       <Services />
       <Work />
       <Features />

@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="sec-2">
           <h6>Newsletter</h6>
           <p>Stay update with our latest</p>
-          <div className='input-box'>
+          <div className='news-input-box'>
             <input className="input" type="email" placeholder="Email Address" />
             <button className='input-btn'><FontAwesomeIcon icon={faArrowRight} /></button>
           </div>

@@ -27,6 +27,10 @@ const Header = () => {
     };
   }, []);
 
+  const handleAboutClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -64,15 +68,15 @@ const Header = () => {
                   <div className="bar"></div>
                 </div>
                 <ul className={`nav-container ${showMenu ? 'show-menu' : ''}`}>
-                  <li><Link state={""} to={"/"}>Home</Link></li>
-                  <li><Link state={""} to={"/about"}>About</Link></li>
-                  <li><a href="">Services</a></li>
-                  <li><a href="">Projects</a></li>
+                  <li><Link state={""} to={"/"} onClick={handleAboutClick}>Home</Link></li>
+                  <li><Link state={""} to={"/about"} onClick={handleAboutClick}>About</Link></li>
+                  <li><Link state={""} to={"/services"} onClick={handleAboutClick}>Services</Link></li>
+                  <li><Link state={""} to={"/projects"} onClick={handleAboutClick}>Projects</Link></li>
                   <li className="dropdown">
-                    <a href="">Blog <FontAwesomeIcon icon={faAngleDownSolid} /></a>
+                    <Link onClick={handleAboutClick}>Blog <FontAwesomeIcon icon={faAngleDownSolid} /></Link>
                     <div className="dropdown-content">
                       <div>
-                        <a href="">Blog Home</a>
+                        <Link state={""} to={"/blog-home"}>Blog Home</Link>
                       </div>
                       <div>
                         <a href="">Blog Single</a>
