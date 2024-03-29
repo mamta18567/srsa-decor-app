@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./header.css";
 import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faDribbble, faBehance } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faAngleDown as faAngleDownSolid } from '@fortawesome/free-solid-svg-icons';
 import NavMenu from "../components/nav-menu/navMenu"
 import { Link } from "react-router-dom";
@@ -45,14 +45,12 @@ const Header = () => {
             <>
               <div className="header-top">
                 <div className="top-left">
-                  <a href="tel:+953 012 3654 896">+953 012 3654 896</a>
-                  <a href="mailto:support@colorlib.com">support@colorlib.com</a>
+                  <a href="tel:8287814994, 8527950443">8287814994, 8527950443</a>
+                  <a href="mailto:srsadecor@gmail.com">srsadecor@gmail.com</a>
                 </div>
                 <div className="top-right">
-                  <a href=""><FontAwesomeIcon icon={faFacebookF} /></a>
-                  <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-                  <a href=""><FontAwesomeIcon icon={faDribbble} /></a>
-                  <a href=""><FontAwesomeIcon icon={faBehance} /></a>
+                  <a href="https://www.facebook.com/SRSADECOR/"><FontAwesomeIcon icon={faFacebookF} /></a>
+                  <a href="https://www.instagram.com/srsadecor/"><FontAwesomeIcon icon={faInstagram} /></a>
                 </div>
               </div>
               <div className="horizontal-line">
@@ -105,7 +103,7 @@ const Header = () => {
                     </div> */}
                     </div>
                   </li>
-                  <li><a href="">Contact</a></li>
+                  <li><Link state={""} to={"/contact"} onClick={handleAboutClick}>Contact</Link></li>
                 </ul>
               </div>
             </>

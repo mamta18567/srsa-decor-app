@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faTwitter, faDribbble, faBehance } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import "./footer.css"
 
 const Footer = () => {
@@ -25,10 +25,8 @@ const Footer = () => {
           <h6>Follow Us</h6>
           <p>Let us be social</p>
           <div className='icons'>
-            <a href=""><FontAwesomeIcon icon={faFacebookF} /></a>
-            <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href=""><FontAwesomeIcon icon={faDribbble} /></a>
-            <a href=""><FontAwesomeIcon icon={faBehance} /></a>
+            <a href="https://www.facebook.com/SRSADECOR/"><FontAwesomeIcon icon={faFacebookF} /></a>
+            <a href="https://www.instagram.com/srsadecor/"><FontAwesomeIcon icon={faInstagram} /></a>
           </div>
         </div>
       </div>

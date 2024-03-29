@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faDribbble, faBehance } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF,faInstagram} from '@fortawesome/free-brands-svg-icons';
 import "./sidebar.css"
 import user1 from "../../assets/user1.png"
 
@@ -18,10 +18,8 @@ const Sidebar = () => {
           <h4>Charlie Barber</h4>
           <p>Senior Blog Writer</p>
           <div className="social-media">
-            <a href=""><FontAwesomeIcon icon={faFacebookF} /></a>
-            <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href=""><FontAwesomeIcon icon={faDribbble} /></a>
-            <a href=""><FontAwesomeIcon icon={faBehance} /></a>
+            <a href="https://www.facebook.com/SRSADECOR/"><FontAwesomeIcon icon={faFacebookF} /></a>
+            <a href="https://www.instagram.com/srsadecor/"><FontAwesomeIcon icon={faInstagram} /></a>
           </div>
           <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
         </div>
@@ -130,20 +128,20 @@ const Sidebar = () => {
         <div className='flex tags-section'>
           <h4 className='category-title'>Tag Clouds</h4>
           <div className='tags-container'>
-          <ul className='tags'>
-            <li>Technology</li>
-            <li>Fashion</li>
-            <li>Architecture</li>
-            <li>Fashion</li>
-            <li>Food</li>
-            <li>Technology</li>
-            <li>Lifestyle</li>
-            <li>Art</li>
-            <li>Adventure</li>
-            <li>Food</li>
-            <li>Lifestyle</li>
-            <li>Adventure</li>
-          </ul>
+            <ul className='tags'>
+              <li>Technology</li>
+              <li>Fashion</li>
+              <li>Architecture</li>
+              <li>Fashion</li>
+              <li>Food</li>
+              <li>Technology</li>
+              <li>Lifestyle</li>
+              <li>Art</li>
+              <li>Adventure</li>
+              <li>Food</li>
+              <li>Lifestyle</li>
+              <li>Adventure</li>
+            </ul>
           </div>
         </div>
       </div>
