@@ -5,6 +5,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const Review = ({ image, name, text, ratings }) => {
 
+  localStorage.setItem('ratings', ratings)
   const renderStars = () => {
     const stars = [];
     for (let i = 0; i < 5; i++) {

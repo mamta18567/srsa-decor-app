@@ -1,8 +1,8 @@
 import Brands from "../../brands/brands";
+import Projects from "../../components/projects/projects";
 import Home from "../../home/home";
 import RequestSection from "../../request-action/request";
 import ReviewSection from "../../reviews/reviews";
-import Work from "../../work/work";
 
 const ProjectSection = () => {
 
@@ -12,7 +12,7 @@ const ProjectSection = () => {
         height={"60vh"}
         heading={"Projects"}
       />
-      <Work />
+      <Projects />
       <ReviewSection />
       <RequestSection />
       <Brands />

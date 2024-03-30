@@ -10,7 +10,7 @@ const ServicesSection = () => {
     <>
       <Home
         height={"60vh"}
-        heading={"Services"}
+        heading={"Products"}
       />
       <Services />
       <ReviewSection />

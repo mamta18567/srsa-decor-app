@@ -20,7 +20,7 @@ const ContactPage = () => {
             <div className="address-details">
               <span><FontAwesomeIcon icon={faPhone} /></span>
               <div className="address">
-                <h5>8287814994, 8527950443</h5>
+                <h5>+91 8287814994, +91 8527950443</h5>
                 <p> 7 days open 10:00 to 7:00 Pm</p>
               </div>
             </div>

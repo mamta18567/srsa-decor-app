@@ -1,8 +1,8 @@
 const Location = ({ googleMapsLink }) => {
   return (
     <div style={{margin:"30px ", display:"flex", justifyContent:"center", alignItems:"center"}}>
-      <iframe
-        width="600"
+      <iframe style={{border:"none"}}
+        width="850"
         height="450"
         loading="lazy"
         allowFullScreen

@@ -45,7 +45,7 @@ const Header = () => {
             <>
               <div className="header-top">
                 <div className="top-left">
-                  <a href="tel:8287814994, 8527950443">8287814994, 8527950443</a>
+                  <a href="tel:+91 8287814994, +91 8527950443">+91 8287814994, +91 8527950443</a>
                   <a href="mailto:srsadecor@gmail.com">srsadecor@gmail.com</a>
                 </div>
                 <div className="top-right">
@@ -68,9 +68,9 @@ const Header = () => {
                 <ul className={`nav-container ${showMenu ? 'show-menu' : ''}`}>
                   <li><Link state={""} to={"/"} onClick={handleAboutClick}>Home</Link></li>
                   <li><Link state={""} to={"/about"} onClick={handleAboutClick}>About</Link></li>
-                  <li><Link state={""} to={"/services"} onClick={handleAboutClick}>Services</Link></li>
+                  <li><Link state={""} to={"/products"} onClick={handleAboutClick}>Products</Link></li>
                   <li><Link state={""} to={"/projects"} onClick={handleAboutClick}>Projects</Link></li>
-                  <li className="dropdown">
+                  {/* <li className="dropdown">
                     <Link onClick={handleAboutClick}>Blog <FontAwesomeIcon icon={faAngleDownSolid} /></Link>
                     <div className="dropdown-content">
                       <div>
@@ -80,8 +80,8 @@ const Header = () => {
                         <a href="">Blog Single</a>
                       </div>
                     </div>
-                  </li>
-                  <li className="dropdown">
+                  </li> */}
+                  {/* <li className="dropdown">
                     <a href="">Pages <FontAwesomeIcon icon={faAngleDownSolid} /></a>
                     <div className="dropdown-content">
                       <div>
@@ -93,16 +93,16 @@ const Header = () => {
                       <div className="dd-list">
                         <a href="#" className="level2">Level 2<span className="dropdown-arrow">&gt;</span></a>
                       </div>
-                      {/* <div className="dropdown-sub-content">
+                      <div className="dropdown-sub-content">
                       <div>
                         <a href="">Item One</a>
                       </div>
                       <div>
                         <a href="">Item Two</a>
                       </div>
-                    </div> */}
                     </div>
-                  </li>
+                    </div>
+                  </li> */}
                   <li><Link state={""} to={"/contact"} onClick={handleAboutClick}>Contact</Link></li>
                 </ul>
               </div>
